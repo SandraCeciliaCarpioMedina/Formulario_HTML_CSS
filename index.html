@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html >
+<head>
+	
+	<title> Formulario de Registro-Mi web</title>
+	<body bgcolor="Lavender"></body>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	
+	<section class="form-formulario">
+		<h1> Laboratorio 1</h1>
+	    <h2> FORMULARIO DE REGISTRO </h2>
+		<form action="" method="get">
+
+		<p>
+		<label for ="Nombre">Nombres:</label>  
+		<input class="controls" type="text" name="Nombre"   id="Nombre"   placeholder="Ingrese su nombre completo"
+		maxlength="50"/>
+	    </p>
+	    
+	    <p>
+	    <label for ="Apellido">Apellidos:</label>
+	    <input class="controls" type="text" name="Apellido" id="Apellido" placeholder="Ingrese su apellido completo"
+	    maxlength="50"/>		    	
+	    </p>	
+
+	    <p>
+	    <label for ="sexo">Sexo:</label>
+
+	    <input class="radio" type="radio" name="sexo" id="s_hombre"> 
+	    <label for="sexo-h">Hombre</label>
+
+	    <input class="radio" type="radio" name="sexo" id="s_mujer"> 
+	    <label for="sexo-m">Mujer</label>	    	
+	    </p>
+
+	    <p>
+	    <label for ="email">E-mail:</label>
+	    <input class="controls" type="text" name="email"    id="email"    placeholder="Ingrese su e-mail" 
+	    maxlength="50"/>	    	
+	    </p>
+
+	    <p>
+	    <label for="poblacion">Poblacion:</label>
+	    <select name="poblacion" id="poblacion"> 
+	    <option>Escoja una opcion</option>
+	    <option>Arequipa</option>
+	    <option>Cusco</option>
+	    <option>Lima</option>
+	    <option>Puno</option>
+	    </select>
+	    </p>
+
+	    <p>
+	    <label  for="descripcion">Descripcion de la Poblacion:</label>
+	    </p>
+	    
+	    <p>
+	    <textarea class="estilotextarea" name="descripcion" id="descripcion" placeholder="Escriba aqui...." rows="4" cols="50" 
+	    maxlength="10000000"></textarea>	    
+	    </p>
+	    <p> </p>
+		<p>
+		<input class="checkbox" type="checkbox" name="deseo" id="deseo" checked=" "/ >
+		<label for="deseo"> Deseo recibir informacion sobre novedades y ofertas</label>
+	    </p>
+	    
+		<p>
+		<input class="checkbox" type="checkbox" name="condiciones" id="condiciones" >	
+		<label for="condiciones"> Declaro haber leido y aceptar las <a href="#"> condiciones generales del programa </a> y <a href="#"> la normativa sobre proteccion de datos </a></label>
+	    </p>
+	    <p></p>
+
+	    <p>
+	    <input class="boton" type="submit" value="Envio">
+	     	    	
+	    </p>
+	    </form>	
+	<section>	
+</body>
+</html>
